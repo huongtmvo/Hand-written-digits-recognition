@@ -1,4 +1,4 @@
-# Build Deep Learning Application to Recognize Handwritten Digits
+# Build Deep Learning Models to Recognize Handwritten Digits
 The goal of the project is to experiment with state of the art machine learning techniques and to build the high accuracy model on test data. We also build an web application to test the model in real-time. 
 
 
