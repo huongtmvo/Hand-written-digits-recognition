@@ -31,6 +31,8 @@ Model predicted output = 2
 
 ```
 
+![Alt text](images/2.png?raw=true "Real-world example")
+
 
  
 
