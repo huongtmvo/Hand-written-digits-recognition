@@ -27,7 +27,7 @@ Image:
 ![Alt text](images/2.png?raw=true "Real-world example")
 
 ```
-> python3 src/run_model.py mlp images/2.png
+$ python3 src/run_model.py mlp images/2.png
 
 out = [[1.1773597e-27 0.0000000e+00 1.0000000e+00 6.6215482e-19 0.0000000e+00
   2.3951275e-14 4.9028755e-13 2.0657011e-11 1.4949686e-34 0.0000000e+00]]
