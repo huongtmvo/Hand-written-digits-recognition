@@ -3,7 +3,7 @@ The goal of the project is to experiment with state of the art machine learning 
 
 
 
-## Project Objectives: 
+## Project Objectives 
 - Explore MNIST dataset of handwritten digits from https://yann.lecun.com/exdb/mnist/ 
 - Build MLP, CNN models using Keras and fine-tune models to get high accuracy
 - Test models on real world examples
@@ -12,6 +12,13 @@ The goal of the project is to experiment with state of the art machine learning 
 - MLP solution: Accuracy is 98.15% on test set.
 - CNN solution: Accuracy is 99.15% on test set. 
 - Models perform well on real world examples 
+
+## Directory Structure 
+- `exp`: notebook to run various experements, place to explore data, improve model performance 
+- `src`: final scripts to train model and run model inference 
+- `images`: real world images example
+- `models`: checkpoint of model that has been trained and saved using keras `model.save(...)`
+
 
 **How to train model**
 
