@@ -1,4 +1,4 @@
 app*
 images_test
-.DS_Store
-*/.DS_Store
+# OS generated files #
+**/.DS_Store
