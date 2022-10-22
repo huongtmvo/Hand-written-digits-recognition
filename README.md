@@ -21,6 +21,11 @@ python3 src/train_cnn.py
 ```
 
 **How to run model inference in real-world image**
+
+Image: 
+
+![Alt text](images/2.png?raw=true "Real-world example")
+
 ```
 > python3 src/run_model.py mlp images/2.png
 
@@ -31,7 +36,7 @@ Model predicted output = 2
 
 ```
 
-![Alt text](images/2.png?raw=true "Real-world example")
+
 
 
  
