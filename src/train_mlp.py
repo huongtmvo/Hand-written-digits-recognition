@@ -2,6 +2,7 @@ from keras import models
 from keras import layers 
 from keras.datasets import mnist
 from keras.utils import to_categorical
+# import tensorflowjs as tfjs
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
@@ -36,3 +37,5 @@ if __name__ == '__main__':
     test_loss, test_acc = mlp.evaluate(test_data, test_label)
     print(f"Test accuracy = {test_acc} and test loss = {test_loss}")
     mlp.save("./models/mlp")
+
+    # tfjs.converters.save_keras_model(mlp, 'mlp_tfjs')
